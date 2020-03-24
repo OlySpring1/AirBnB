@@ -1,0 +1,12 @@
+.description {
+  max-width: 490px;
+  margin-bottom: 35px;
+
+  @media screen and (max-width:1020px) {
+    max-width: 330px;
+  }
+
+  @media screen and (max-width: 799px) {
+    order: 2;
+  }
+}

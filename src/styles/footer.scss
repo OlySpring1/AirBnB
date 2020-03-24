@@ -1,0 +1,63 @@
+@import "utils";
+
+.footer {
+  height: 212px;
+  padding: 40px 0;
+  box-shadow: 0 -1px 0 #e1e7ed;
+  font-size: 16px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 460px) {
+    font-size: 14px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 460px) {
+      font-size: 14px;
+    }
+  }
+
+  &__link {
+    color: $colorPrimary;
+    padding-bottom: 5px;
+    margin-bottom: 0.5em;
+
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+    transition: all 0.3s;
+
+    @include hover(color, $colorLink);
+
+    &:before {
+      content: "";
+      width: 0;
+      height: 0.08em;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      background: $colorLink;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+        left: 0;
+        background: $colorLink;
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+}
