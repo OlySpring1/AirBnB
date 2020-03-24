@@ -16,6 +16,11 @@
               order: 1;
       margin-bottom: 40px;
       position: static; } }
+  @media screen and (max-width: 460px) {
+    .form {
+      width: 280px;
+      height: 320px;
+      padding: 30px; } }
   .form .input {
     display: block;
     width: 270px;
@@ -26,6 +31,9 @@
     border-radius: 3px;
     padding-left: 17px;
     outline: none; }
+    @media screen and (max-width: 460px) {
+      .form .input {
+        width: 200px; } }
   .form .input-date {
     margin: 40px 0 16px; }
   .form .input-num {

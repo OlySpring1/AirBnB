@@ -30,5 +30,8 @@
       color: #fff; }
     .hosted__link-button:hover {
       background-color: #118488; }
+    @media screen and (max-width: 460px) {
+      .hosted__link-button {
+        width: 100%; } }
 
 /*# sourceMappingURL=hosted.css.map */

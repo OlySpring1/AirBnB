@@ -24,5 +24,10 @@
     transition: color 0.3s; }
     .nav__link:hover {
       color: #118488; }
+    @media screen and (max-width: 460px) {
+      .nav__link {
+        font-size: 12px;
+        font-weight: 400;
+        padding-right: 1em; } }
 
 /*# sourceMappingURL=navBar.css.map */

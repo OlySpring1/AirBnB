@@ -157,6 +157,11 @@ h5 {
     transition: color 0.3s; }
     .nav__link:hover {
       color: #118488; }
+    @media screen and (max-width: 460px) {
+      .nav__link {
+        font-size: 12px;
+        font-weight: 400;
+        padding-right: 1em; } }
 
 .promo {
   height: 464px;
@@ -177,6 +182,9 @@ h5 {
   @media screen and (min-width: 1600px) {
     .container {
       padding-left: 280px; } }
+  @media screen and (max-width: 460px) {
+    .container {
+      padding: 0 30px; } }
 
 .content {
   display: -webkit-box;
@@ -193,7 +201,10 @@ h5 {
               flex-direction: column;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; } }
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .description {
   max-width: 490px;
@@ -328,6 +339,9 @@ h5 {
       color: #fff; }
     .hosted__link-button:hover {
       background-color: #118488; }
+    @media screen and (max-width: 460px) {
+      .hosted__link-button {
+        width: 100%; } }
 
 h1 {
   font-family: "Avenir", sans-serif;
@@ -371,6 +385,11 @@ h5 {
               order: 1;
       margin-bottom: 40px;
       position: static; } }
+  @media screen and (max-width: 460px) {
+    .form {
+      width: 280px;
+      height: 320px;
+      padding: 30px; } }
   .form .input {
     display: block;
     width: 270px;
@@ -381,6 +400,9 @@ h5 {
     border-radius: 3px;
     padding-left: 17px;
     outline: none; }
+    @media screen and (max-width: 460px) {
+      .form .input {
+        width: 200px; } }
   .form .input-date {
     margin: 40px 0 16px; }
   .form .input-num {
@@ -432,6 +454,9 @@ h5 {
   font-size: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .footer {
+      font-size: 14px; } }
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -440,8 +465,10 @@ h5 {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .footer__title {
-    font-size: 16px;
     margin-bottom: 20px; }
+    @media screen and (max-width: 460px) {
+      .footer__title {
+        font-size: 14px; } }
   .footer__link {
     color: #3d4e61;
     padding-bottom: 5px;
