@@ -1,0 +1,13 @@
+.promo {
+  height: 464px;
+  display: block;
+  background-image: url("../images/Image-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 39px; }
+  @media screen and (min-width: 1600px) {
+    .promo {
+      background-image: url("../images/Image.svg"); } }
+
+/*# sourceMappingURL=promo.css.map */

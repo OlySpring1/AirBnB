@@ -1,0 +1,28 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .nav__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .nav__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 36px;
+    font-family: "Avenir-Heavy", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d4e61;
+    -webkit-transform: color 0.3 s;
+            transform: color 0.3 s;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .nav__link:hover {
+      color: #118488; }
+
+/*# sourceMappingURL=navBar.css.map */

@@ -1,0 +1,25 @@
+.apartment {
+  margin-bottom: 68px; }
+  .apartment__entire {
+    color: #687c94; }
+  .apartment__rooms {
+    display: inline-block;
+    margin-right: 58px; }
+  .apartment .link-host {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #3d4e61;
+    font-weight: 600;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .apartment .link-host:hover {
+      color: #118488; }
+
+.amenities {
+  margin-bottom: 20px;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+/*# sourceMappingURL=apartment.css.map */
