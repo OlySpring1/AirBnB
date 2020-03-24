@@ -1,0 +1,37 @@
+@import "utils";
+
+.hosted {
+  margin-top: 90px;
+
+  &__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  &__place {
+    margin: 0.8em 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__article {
+    margin: 0.8em 0 1.6em;
+  }
+
+  &__link-button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid $colorLink;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: $colorLink;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+
+    @include hover(color, #fff);
+    @include hover(background-color, $colorLink);
+  }
+}

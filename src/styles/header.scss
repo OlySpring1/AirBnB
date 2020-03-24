@@ -1,0 +1,14 @@
+@import "utils";
+
+.header {
+  height: $heightHeader;
+  background: #fff;
+  box-shadow: 0 1px 0 #e1e7ed;
+  padding-left: 26px;
+  padding-right: 19px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

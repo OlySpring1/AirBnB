@@ -1,7 +1,25 @@
-@import "utils";
 @import "fonts";
 @import "typography";
+@import "utils";
+@import "reset";
+@import "header";
+@import "navBar";
+@import "promo";
+@import "container";
+@import "content";
+@import "description";
+@import "apartment";
+@import "reviews";
+@import "hosted";
+@import "form";
+@import "footer";
 
 body {
-  background: $c-gray;
+  width: 100%;
+}
+
+html {
+  font-family: "Avenir", sans-serif;
+  color: $colorPrimary;
+  line-height: 24px;
 }

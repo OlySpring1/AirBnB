@@ -1,0 +1,24 @@
+@import "utils";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+  }
+
+  &__link {
+    display: inline-block;
+    height: $heightHeader;
+    line-height: $heightHeader;
+    padding-right: 36px;
+    font-family: "Avenir-Heavy", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: $colorPrimary;
+    transform: color 0.3 s;
+
+    @include hover(color, $colorLink);
+  }
+}

@@ -1,0 +1,30 @@
+@import "utils";
+
+.apartment {
+  margin-bottom: 68px;
+
+  &__entire {
+    color: #687c94;
+  }
+
+  &__rooms {
+    display: inline-block;
+    margin-right: 58px;
+  }
+
+  .link-host {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: $colorPrimary;
+    font-weight: 600;
+    @include hover(color, $colorLink);
+  }
+}
+
+.amenities {
+  margin-bottom: 20px;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}

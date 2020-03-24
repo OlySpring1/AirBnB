@@ -1,4 +1,27 @@
 %h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 400;
+  color: $colorPrimary;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+%h2 {
+  font-family: "Avenir", sans-serif;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+%h3 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 400;
+  color: $colorPrimary;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+%h5 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 600;
+  color: $colorPrimary;
 }
