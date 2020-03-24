@@ -20,5 +20,12 @@
     transform: color 0.3 s;
 
     @include hover(color, $colorLink);
+
+    @media screen and (max-width: 460px) {
+      font-size: 12px;
+      font-weight: 400;
+      padding-right: 1em;
+
+    }
   }
 }

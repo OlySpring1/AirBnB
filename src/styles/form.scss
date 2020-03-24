@@ -17,6 +17,13 @@
     position: static;
   }
 
+  @media screen and (max-width: 460px) {
+    width: 280px;
+    height: 320px;
+    padding: 30px;
+
+  }
+
   .input {
     display: block;
     width: 270px;
@@ -26,6 +33,10 @@
     border-radius: 3px;
     padding-left: 17px;
     outline: none;
+
+    @media screen and (max-width: 460px) {
+      width: 200px;
+    }
   }
 
   .input-date {

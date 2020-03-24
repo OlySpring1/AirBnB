@@ -33,5 +33,9 @@
 
     @include hover(color, #fff);
     @include hover(background-color, $colorLink);
+
+    @media screen and (max-width: 460px) {
+      width: 100%;
+    }
   }
 }
